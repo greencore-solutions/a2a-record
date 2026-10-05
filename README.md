@@ -8,7 +8,7 @@ A2A Passport is built and run by GreenCore Solutions Corp. (github.com/greencore
 
 ## The door
 
-streamable-HTTP, stateless, server name `a2a-passport`, door version 1.0.0, 3 tools (read from the wire)
+streamable-HTTP, stateless, server name `a2a-passport`, door version 1.0.1, 3 tools (read from the wire)
 
 - Endpoint: `https://mcp.a2a-passport.ai/mcp` — any client that speaks streamable-HTTP: `{ "url": "https://mcp.a2a-passport.ai/mcp", "transport": "streamable-http" }`
 - Agent Card (signed): `https://a2a-passport.ai/.well-known/agent-card.json`
