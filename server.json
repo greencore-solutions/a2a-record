@@ -3,7 +3,7 @@
   "name": "io.github.greencore-solutions/a2a-passport",
   "title": "A2A Passport — one GTIN, one call, everything GSC knows, signed",
   "description": "The hubs are the records; A2A-Passport.ai issues the passport.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://a2a-passport.ai",
   "repository": {
     "url": "https://github.com/greencore-solutions/a2a-passport",
