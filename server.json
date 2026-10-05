@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.greencore-solutions/a2a-passport",
+  "title": "A2A Passport — one GTIN, one call, everything GSC knows, signed",
+  "description": "The hubs are the records; A2A-Passport.ai issues the passport.",
+  "version": "1.0.0",
+  "websiteUrl": "https://a2a-passport.ai",
+  "repository": {
+    "url": "https://github.com/greencore-solutions/a2a-passport",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.a2a-passport.ai/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "title": "A2A Passport — one GTIN, one call, everything GSC knows, signed",
+      "line_of_record": "The hubs are the records; A2A-Passport.ai issues the passport.",
+      "description": "The hubs are the records; A2A-Passport.ai issues the passport. A passport is a signed document for a product or a retail banner: where its record lives, where it is cleared, who lists it, where the money door is. Issued live from the GSC hubs, stamped every week. A2A Passport is operated by GreenCore Solutions Corp.: one signed document per product (a Global Trade Item Number, GTIN) or retail banner, composed live from the GSC hubs — A2A Grocery, A2A Cosmetics, A2A Peptides, A2A Retailmedia and the compliance records — and signed (EdDSA). Three tools: get_passport, list_passports, verify_passport. Every field is a hub's answer, word for word, with the door and the time it was read, or it is absent with a note: the passport never infers. A product no hub holds gets no passport. Reads are open; a verified, countersigned copy settles by x402. Artificial intelligence makes mistakes. A2A Passport is an agentic information source, not a recommendation. No ads, ever. No rank for sale. Trade only.",
+      "notice": "Artificial intelligence makes mistakes. A2A Passport is an agentic information source, not a recommendation. No ads, ever. No rank for sale. Trade only.",
+      "publisher": "GreenCore Solutions Corp.",
+      "publisher_url": "https://gsc-em.com",
+      "tools": 3,
+      "transport": "streamable-http",
+      "documentation": "https://a2a-passport.ai/docs",
+      "setup": "https://a2a-passport.ai/docs",
+      "support": "https://gsc-em.com/#contact",
+      "terms": "https://gsc-em.com/legal",
+      "privacy": "https://gsc-em.com/privacy",
+      "agent_card": "https://a2a-passport.ai/.well-known/agent-card.json",
+      "keyring": "https://a2a-passport.ai/.well-known/jwks.json",
+      "register": "https://a2a-passport.ai/passports/register.json",
+      "health": "https://mcp.a2a-passport.ai/health.json",
+      "x402": "https://a2a-passport.ai/api",
+      "contact": "mk@gsc-em.com"
+    }
+  }
+}
